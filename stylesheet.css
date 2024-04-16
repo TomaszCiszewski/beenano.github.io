@@ -195,7 +195,7 @@ li a:hover {
 footer {
     background-color: rgb(197, 166, 104);
     height: 100px;
-    margin-bottom: 5px;
+    margin-top: -15px;
     p {
         text-align: center;
         padding: 40px;
