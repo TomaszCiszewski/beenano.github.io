@@ -48,7 +48,7 @@ li a:hover {
     background-color: rgb(197, 166, 104);
 }
 
-.logo_nav {
+/*.logo_nav {
     scale: 20%;
     margin-left: -1000px;
     margin-top: -200px;
@@ -59,7 +59,7 @@ li a:hover {
     padding: 15px;
     border-radius: 95px;
     background-color: rgb(197, 166, 104);
-}
+}*/
 
 .nav {
     margin-right: 30px;
