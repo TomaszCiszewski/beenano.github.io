@@ -39,12 +39,12 @@ li a:hover {
     font-style: normal;
     font-size: x-large;
     position: fixed;
-    top: 0;
-    right: 5px;
+    top: 15px;
+    right: 25px;
     height: 100px;
     padding: 18px;
-    width: 105%;
     margin-right: -10px;
+    border-radius: 30px;
     background-color: rgb(197, 166, 104);
 }
 
@@ -55,7 +55,9 @@ li a:hover {
     user-select: none;
     position: fixed;
     top: 15px;
-    right: 970px;
+    right: 930px;
+    padding: 15px;
+    border-radius: 95px;
     background-color: rgb(197, 166, 104);
 }
 
