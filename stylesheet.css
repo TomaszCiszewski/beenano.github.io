@@ -204,4 +204,9 @@ footer {
         font-style: normal;
         font-size: 15px;
     }
+    top: 100%;
+}
+
+.hexagon {
+    margin-top: -4650px;
 }
