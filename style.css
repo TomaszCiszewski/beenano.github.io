@@ -1,3 +1,11 @@
+html {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 200px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,6 +37,7 @@ li a:hover {
     font-style: normal;
     font-size: x-large;
     position: fixed;
+    z-index: 1000;
     top: 15px;
     right: 25px;
     height: 100px;
@@ -111,4 +120,65 @@ li a:hover {
     margin-left: 200px;
     margin-top: -570px;
     user-select: none;
+}
+
+.Triangle {
+    transform: rotate(90deg);
+    margin-top: 1450px;
+    margin-left: -1490px;
+    position: relative;
+}
+
+.rect1 {
+    width: 150px;
+    height: 600px;
+    background-color: rgb(197, 166, 104);
+    margin-top: -1710px;
+    margin-left: -120px;
+}
+
+.hexagon8 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -1790px;
+    margin-left: 1575px;
+}
+
+.hexagon9 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -295px;
+    margin-left: 1390px;
+    position: relative;
+    z-index: 2;
+}
+
+.hexagon10 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -275px;
+    margin-left: 1250px;
+    position: relative;
+    z-index: 1;
+}
+
+.tiles1 {
+    scale: 60%;
+    margin-left: -80px;
+    margin-top: -170px;
+    user-select: none;
+}
+
+.hexagon11 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -275px;
+    margin-left: -100px;
+}
+
+.hexagon12 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -200px;
+    margin-left: 100px;
 }
