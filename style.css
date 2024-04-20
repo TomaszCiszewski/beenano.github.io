@@ -25,12 +25,19 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 400ms ease;
 }
 
 li a:hover {
     color: dimgray;
     display: block;
 }
+
+li :hover:hover {
+    font-size: larger;
+    margin-top: -3px;
+}
+
 .nav-bar {
     font-family: "Play", sans-serif;
     font-weight: 400;
@@ -181,4 +188,81 @@ li a:hover {
     transform: rotate(90deg);
     margin-top: -200px;
     margin-left: 100px;
+}
+
+.william {
+    scale: 60%;
+    margin-left: -300px;
+    margin-top: -60px;
+    user-select: none;
+}
+
+.william-ai {
+    width: 450px;
+    height: 365px;
+    overflow-x: hidden;
+    margin-left: 1050px;
+    margin-top: -720px;
+    user-select: none;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    p {
+    font-size: 20px;
+    }
+    h1 {
+    font-size: 52px;
+    }
+}
+
+.tiles3 {
+    scale: 60%;
+    margin-left: -920px;
+    margin-top: -80px;
+    user-select: none;
+}
+
+.hexagon13 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -1355px;
+    margin-left: 1390px;
+}
+
+.hexagon14 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -165px;
+    margin-left: 1590px;
+}
+
+.hexagon15 {
+    width: 280px;
+    transform: rotate(90deg);
+    margin-top: -260px;
+    margin-left: 1460px;
+}
+
+.tiles3_txt {
+    margin-left: 750px;
+    margin-top: -220px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    h1 {
+    font-size: 72px;
+    }
+}
+
+.tiles3_text {
+    margin-left: 860px;
+    margin-top: 20px;
+    width: 450px;
+    height: 365px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    p {
+    font-size: 25px;
+    }
 }
