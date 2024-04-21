@@ -266,3 +266,36 @@ li :hover:hover {
     font-size: 25px;
     }
 }
+
+.tiles2 {
+    scale: 60%;
+    margin-left: 20px;
+    margin-top: -95px;
+    user-select: none;
+}
+
+.twow_text {
+    margin-left: 800px;
+    margin-top: 580px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    h1 {
+    font-size: 72px;
+    }
+}
+
+footer {
+    background-color: rgb(197, 166, 104);
+    height: 100px;
+    margin-top: -15px;
+    p {
+        text-align: center;
+        padding: 40px;
+        font-family: "Play", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+    top: 100%;
+}
